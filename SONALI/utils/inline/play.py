@@ -75,8 +75,8 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/VAMPIRE_UPDATEE",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/FCC_OFICIAL",),
+            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KASHISH_UPDATE",),
+            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/KASHISH_UPDATE",),
         ],
         [
             InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riya_music_robot?startgroup=true",),
@@ -99,8 +99,8 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/VAMPIRE_UPDATEE",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/FCC_OFICIAL",),
+            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KASHISH_UPDATE",),
+            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/KASHISH_UPDATE",),
         ],
         [
             InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riya_music_robot?startgroup=true",),
