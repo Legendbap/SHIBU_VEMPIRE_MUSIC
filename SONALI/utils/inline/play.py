@@ -40,25 +40,25 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
     percentage = (played_sec / duration_sec) * 100
     umm = math.floor(percentage)
     if 0 < umm <= 10:
-        bar = "🇷𝐢————————"
+        bar = "🇳𝐢————————"
     elif 10 < umm < 20:
-        bar = "🇷𝐢𝐲———————"
+        bar = "🇷𝗶𝗸———————"
     elif 20 <= umm < 30:
-        bar = "🇷𝐢𝐲𝐚——————"
+        bar = "🇷𝗶𝗸𝗸𝗶——————"
     elif 30 <= umm < 40:
-        bar = "🇷𝐢𝐲𝐚 ♡—————"
+        bar = "🇳𝗶𝗸𝗸𝗶 ♡—————"
     elif 40 <= umm < 50:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌————"
+        bar = "🇳𝗶𝗸𝗸𝗶 ♡ 𝐌————"
     elif 50 <= umm < 60:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮———"
+        bar = "🇳𝗶𝗸𝗸𝗶 ♡ 𝐌𝐮———"
     elif 60 <= umm < 70:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬——"
+        bar = "🇳𝗶𝗸𝗸𝗶 ♡ 𝐌𝐮𝐬——"
     elif 70 <= umm < 80:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢—"
+        bar = "🇳𝗶𝗸𝗸𝗶 ♡ 𝐌𝐮𝐬𝐢—"
     elif 80 <= umm < 95:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢𝐜-"
+        bar = "🇳𝗶𝗸𝗸𝗶 ♡ 𝐌𝐮𝐬𝐢𝐜-"
     else:
-        bar = "🇷𝐢𝐲𝐚 ♡ 𝐌𝐮𝐬𝐢𝐜 ♡"
+        bar = "🇳𝗶𝗸𝗸𝗶 ♡ 𝐌𝐮𝐬𝐢𝐜 ♡"
 
     buttons = [
         [
@@ -75,11 +75,11 @@ def stream_markup_timer(_, videoid, chat_id, played, dur):
             )
         ],
       [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KASHISH_UPDATE",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/KASHISH_UPDATE",),
+            InlineKeyboardButton(text="✰ 𝛅 ⋏ ι 𝚳 ✰", url="https://t.me/DADDY_SAIM",),
+            InlineKeyboardButton(text="✰ 𝚶𝛚֟֠֩፝𝛈𝛆𝛄 ✰", url="https://t.me/SAIM_WORLD",),
         ],
         [
-            InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riya_music_robot?startgroup=true",),
+            InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/NIKKU_MUSIC_RONOT?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
@@ -99,11 +99,11 @@ def stream_markup(_, videoid, chat_id):
             InlineKeyboardButton(text="▢", callback_data=f"ADMIN Stop|{chat_id}"),
          ],
         [
-            InlineKeyboardButton(text="✰ ƙιɳɠ ✰", url="https://t.me/KASHISH_UPDATE",),
-            InlineKeyboardButton(text="✰ ϙυҽҽɳ ✰", url="https://t.me/KASHISH_UPDATE",),
+            InlineKeyboardButton(text="✰ 𝛅 ⋏ ι 𝚳 ✰", url="https://t.me/DADDY_SAIM",),
+            InlineKeyboardButton(text="✰ 𝚶𝛚֟֠֩፝𝛈𝛆𝛄 ✰", url="https://t.me/SAIM_WORLD",),
         ],
         [
-            InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/riya_music_robot?startgroup=true",),
+            InlineKeyboardButton(text="✙ ᴋɪᴅɴᴀᴘ ᴍᴇ ✙", url="https://t.me/NIKKU_MUSIC_ROBOT?startgroup=true",),
         ],
         [
             InlineKeyboardButton(text=_["CLOSE_BUTTON"], callback_data="close")
